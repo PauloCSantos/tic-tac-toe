@@ -27,7 +27,7 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 - npm / yarn
 
 ## 🔧 Instalação
-
+### :warning::warning: **A pasta img-jogo**: é para guardar as imagens usadas no readme.md! Apagar ela depois do clone :warning::warning:
 ``` bash
 ### clonar repositório
 git clone https://github.com/PauloCSantos/tic-tac-toe.git
