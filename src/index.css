@@ -1,0 +1,218 @@
+  * {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+
+  body {
+    height: 100vh;
+    width: 100vw;
+    border: solid 0.5rem #000;
+    font: "Century Gothic", Futura, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(37,35,170,1) 0%, rgba(20,83,189,1) 50%, rgba(0,151,255,1) 100%);
+  }
+  .root {
+    height: 100%;
+    width: 100%;
+  }
+  .game {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+
+  ol {
+    padding-left: 3.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  li {
+    font-size: 2.1rem;
+  }
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 1rem;
+  }
+  
+  .square {
+    background: transparent;
+    border: 0.1rem solid #FFF;
+    float: left;
+    font-size: 25rem;
+    font-weight: bold;
+    line-height: 3.4rem;
+    min-height: 26.9rem;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    width: 33%;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game-board {
+    height: 100%;
+    width: 50%;
+  }
+  .game-info {
+    height: 100%;
+    width: 50%; 
+    color: #FFF; 
+    font-size: 15rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .game-info ol {
+    font-size: 5rem;
+  }
+  
+  .info-total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .informacoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  .info-placar {
+    font-size: 13rem;
+  }
+  .info-placar-x, .info-placar-y {
+    font-size: 6rem;
+  }
+
+  .end-game-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .texto-winner > div {
+    color: #FFF;
+    font-size: 9rem;
+  }
+
+  .btn {
+    background: rgb(27, 255, 255);
+    color: rgb(63, 118, 170);
+    border: 0.2rem solid rgb(63, 118, 170);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem 1.4rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 0.3s ease-out;
+    width: 20rem;
+  }
+  
+  .btn:hover {
+    background: rgb(63, 118, 170);
+    color: rgb(27, 255, 255);
+    border: 0.2rem solid rgb(27, 255, 255);
+  }
+
+  .titulo-game {
+    font-size: 9rem;
+    color: #FFF;
+  }
+
+  @media (max-width: 1180px) {
+    * {
+      font-size: 50%;
+    }
+    li {
+      font-size: 3rem;
+    }
+  }
+  @media (max-width: 950px) {
+    * {
+      font-size: 45%;
+    }
+    li {
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 860px) {
+    * {
+      font-size: 40%;
+    }
+    li {
+      font-size: 4rem;
+    }
+  }
+
+  @media (max-width: 770px) {
+    * {
+      font-size: 35%;
+    }
+    li {
+      font-size: 4rem;
+    }
+  }
+
+  @media (max-width: 670px) {
+    * {
+      font-size: 30%;
+    }
+    li {
+      font-size: 4rem;
+    }
+  }
+
+  @media (max-width: 590px) {
+    * {
+      font-size: 20%;
+    }
+    .game {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    li {
+      font-size: 7rem;
+    }
+  }
+
+  @media (max-width: 320px)  {
+    * {
+      font-size: 15%;
+    }
+    .game {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    li {
+      font-size: 10rem;
+    }
+  }
+  
