@@ -8,15 +8,15 @@ Jogo da velha aprimorado, versão inicial é o exemplo do site do react(https://
 
 ### menu
 
-
+![velha-menu](img-jogo/velha-menu.png)
 
 ### jogo
 
-
+![velha-jogo](img-jogo/velha-jogo.png)
 
 ### placar
 
-
+![velha-vitoria](img-jogo/velha-vitoria.png)
 
 # 🚀 Começando
 
