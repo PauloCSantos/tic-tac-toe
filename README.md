@@ -4,6 +4,10 @@
 
 Jogo da velha aprimorado, versão inicial é o exemplo do site do react(https://pt-br.reactjs.org/).
 
+- Menu inicial
+- contator de pontos
+- CSS
+
 ## Imagens do jogo
 
 ### menu
