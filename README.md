@@ -48,7 +48,7 @@ npm start
 
 ## 🛠️ Construído com
 
-- HTML / CSS / 
+- HTML / CSS 
 - ReactJS
 
 ## ✒️ Autor
